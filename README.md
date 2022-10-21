@@ -32,7 +32,7 @@ Step 4: Repeat same Step 1 for MetaData file.
 
 Step 5: Copy IPFS CID(contain identifier) generated for MetaData JSON file.
 
-Step 6: Open "https://remix.ethereum.org/"
+Step 6: Open "https://remix.ethereum.org"
 
 Step 7: Create File name with extension " .sol" and use the above solidity Code.
 
