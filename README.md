@@ -3,7 +3,7 @@
 
 Step 1: Upload image/file on Pinata or nft.storage or any ipfs storage provider.
 
-Step 2: Copy IPFS CID(contain identifier) will be generated for image/file , which is a unique value used to identify files stored on the IPFS network.
+Step 2: Copy IPFS CID(contain identifier) generated for image/file , which is a unique value used to identify files stored on the IPFS network.
 
 Step 3: Add MetaData, create a file with extension " .json" and add info related to NFts.
 
@@ -30,7 +30,7 @@ For Example :
 ```
 Step 4: Repeat same Step 1 for MetaData file.
 
-Step 5: Copy IPFS CID(contain identifier) will be generated for MetaData JSON file, which is a unique value used to identify files stored on the IPFS network.
+Step 5: Copy IPFS CID(contain identifier) generated for MetaData JSON file.
 
 Step 6: Open "https://remix.ethereum.org/"
 
