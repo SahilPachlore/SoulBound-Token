@@ -12,7 +12,7 @@ For Example :
 ```
 {
     "image": "https://ipfs.io/ipfs/your-ipfs-cid-id",
-    "description":"Sahil Pachlore has sucessfully completed MBA Degree with 3 GPA",
+    "description":"Sahil Pachlore has sucessfully completed BTech Degree with 3 GPA",
     "attributes":[
         {
             "trait_type":"GPA",
@@ -21,7 +21,7 @@ For Example :
         },
         {
             "trait_type":"Major",
-            "value":"MBA"
+            "value":"BTech"
 
 
         }
