@@ -1,4 +1,4 @@
-﻿# SoulBound-Token
+﻿# SoulBound-Token -Sahil Pachlore
 
 
 Step 1: Upload image/file on Pinata or nft.storage or any ipfs storage provider.
