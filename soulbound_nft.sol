@@ -16,7 +16,7 @@ contract Soulbound is ERC721, ERC721URIStorage, Ownable {
     event Attest(address indexed to, uint256 indexed tokenId);
     event Revoke(address indexed to, uint256 indexed tokenId);
 
-    constructor() ERC721("Babita Ji", "W3CT") {}
+    constructor() ERC721("Actual01", "ACT01") {}
 
     function safeMint(address to, string memory uri) public onlyOwner {
         uint256 tokenId = _tokenIdCounter.current();
