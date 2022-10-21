@@ -26,7 +26,7 @@ contract Soulbound is ERC721, ERC721URIStorage, Ownable {
     }
 
     function burn(uint256 tokenId) external {
-        require(ownerOf(tokenId) == msg.sender, "Only owner of the token can burn it");
+        require(ownerOf(tokenId) == msg.sender, "Only token owner can burn it");
         _burn(tokenId);
     }
 
@@ -35,7 +35,7 @@ contract Soulbound is ERC721, ERC721URIStorage, Ownable {
     }
 
     function _beforeTokenTransfer(address from, address to, uint256) pure override internal {
-        require(from == address(0) || to == address(0), "Not allowed to transfer token");
+        require(from == address(0) || to == address(0), "Token transfer are not allowed");
     }
 
     function _afterTokenTransfer(address from, address to, uint256 tokenId) override internal {
